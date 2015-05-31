@@ -34,4 +34,6 @@ Installation
 pip install timekeeper
 ```
 
+---
+
 ![PyPI downloads](http://img.shields.io/pypi/dm/timekeeper.svg) &nbsp; ![PyPI version](http://img.shields.io/pypi/v/timekeeper.svg) &nbsp; ![Python 2.7](http://img.shields.io/badge/Python-2.7-green.svg) &nbsp; ![Python 3.2+](http://img.shields.io/badge/Python-3.2+-green.svg) &nbsp; ![License](http://img.shields.io/badge/License-ISC-red.svg)
