@@ -1,5 +1,6 @@
 from contextlib import contextmanager
 from datetime import datetime
+from functools import wraps
 
 from influxdb import InfluxDBClient
 
@@ -28,6 +29,7 @@ class TimeKeeper(object):
 
     def decorate(self, measurement, tags=None):
         def outer(func):
+            @wraps(func)
             def inner(*args, **kwargs):
                 with self.context(measurement, tags=tags):
                     return func(*args, **kwargs)
