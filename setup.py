@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name="timekeeper",
-    version="0.1.0",
+    version="0.1.1",
     description="Send runtime measurements of your code to InfluxDB",
     author="Torsten Rehn",
     author_email="torsten@rehn.email",
